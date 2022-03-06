@@ -29,7 +29,7 @@ export PATH=~/.config/wireguard/connections/:$PATH
 source $HOME/.config/aliasrc
 
 #other programs
-[[ ! -f /usr/share/nvm/init-nvm.sh ]] || source /usr/share/nvm/init-nvm.sh
+[[ ! -f /usr/share/nvm/init-nvm.sh ]] || source /usr/share/nvm/init-nvm.sh --no-use
 
 # set vim mode
 bindkey -v
