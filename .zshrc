@@ -41,7 +41,7 @@ bindkey -v
 # zsh autosuggestion config
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 ZSH_AUOSUGGEST_BUFFER_MAX_SIZET=30
-
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=10"
 
 # theme
 source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme
@@ -56,5 +56,4 @@ fi
 
 # Plugins
 source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	# must come at end to ensure highlighting works all the time
